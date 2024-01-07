@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:wght@800&family=Work+Sans:ital,wght@0,300;1,200;1,400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:wght@300&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:wght@800&family=Work+Sans:ital,wght@0,300;1,200;1,400&display=swap');
 
 * {
     padding: 0;
@@ -23,8 +24,8 @@
 .banner {
     text-align: center;
     justify-content: center;
-    
-    
+
+
 }
 
 .banner .title h2 {
@@ -37,17 +38,77 @@
     font-weight: 400px;
 
 }
-.main-title{
+
+.main-title {
     /* width: 632px;
     text-align: center; */
 
 }
-.main-title h1{
+
+.main-title h1 {
     color: #FFF;
-text-align: center;
+    text-align: center;
 
-font-size: 72px;
+    font-size: 72px;
 
-font-weight: 900;
-line-height: 95px; /* 131.944% */
+    font-weight: 900;
+    line-height: 95px;
+    /* 131.944% */
+}
+
+/* offer sction */
+.offer-main {
+    width: 1600px;
+    height: 7335px;
+    margin: 120px auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.offer-containe {
+    margin: 120px auto;
+    width: 1600px;
+    height: 7335px;
+
+
+}
+
+.offer h1 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+
+    font-weight: 700;
+    margin-bottom: 48px;
+
+}
+
+.offer h4 {
+
+    color: #F00;
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+
+    font-weight: 500;
+    margin-bottom: 3px;
+
+}
+
+.offer h2 {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+
+    font-weight: 700;
+    margin-bottom: 48px;
+
+}
+
+.offer img {
+    width: 802.9px;
+    height: 500px;
 }
