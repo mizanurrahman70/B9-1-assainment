@@ -230,8 +230,8 @@ margin-right: 34px; */
 
     background: white;
     margin: 120px auto;
-    background-color:whitesmoke;
-   
+    background-color: whitesmoke;
+
 
 }
 
@@ -239,20 +239,20 @@ margin-right: 34px; */
     display: flex;
     justify-content: space-around;
     margin: 120px 70px 0 0;
-    
+
 
 
 }
 
-.best-offer{
+.best-offer {
     margin: 0 70px 0px 0px;
-    
-    
+
+
 
 }
 
 .best-offert h2 {
-    color:rgb(215, 15, 15);
+    color: rgb(215, 15, 15);
     margin-top: 90px;
     font-family: Inter;
     font-size: 24px;
@@ -303,15 +303,16 @@ margin-right: 34px; */
 
 
 }
-.best-offer h6{
+
+.best-offer h6 {
     color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 20px;
+    font-family: Inter;
+    font-size: 20px;
 
-font-weight: 400;
-line-height: 32px;
+    font-weight: 400;
+    line-height: 32px;
 
-width: 276px;
+    width: 276px;
 }
 
 /* .best-offer img {
@@ -321,3 +322,91 @@ width: 276px;
     margin-left: 118px;
 }
  */
+/* holyday section */
+.holiday-section {
+    margin-top: 120px;
+    width: 1320px;
+
+    margin: 120px auto;
+}
+
+.holi-day-header {
+    text-align: center;
+}
+
+.holi-day-header h4 {
+    color: #070211;
+
+    font-family: Inter;
+    font-size: 24px;
+margin-bottom: 4px;
+    font-weight: 500;
+
+}
+
+.holi-day-header h1 {
+    color: #070211;
+
+    font-size: 72px;
+
+    font-weight: 900;
+    margin-bottom: 28px;
+
+}
+
+#holi {
+    color: #F00;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+
+}
+
+.holi-day-header p {
+    width: 1068px;
+    color: rgba(7, 2, 17, 0.60);
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+
+    font-weight: 500;
+    line-height: 32px;
+    text-align: center;
+}
+.logic-contener{
+    display: flex;
+    margin-top: 64px;
+    justify-content: space-between;
+}
+#img-left{
+    width: 429px;
+    height: 433px;
+   
+}
+.img-right{
+    background-image: url("../img/Rectangle\ 1.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+   
+    
+}
+.main-img{
+    width: 206.841px;
+height: 206.841px;
+margin-left: 202px;
+}
+#img-right{
+    width: 429px;
+    height: 433px;
+    position: relative;
+    
+    
+}
+.butto-red{
+   background-image: url("../img/Rectangle\ 2.png");
+   width: 1320px;
+height: 229px;
+border-radius: 16px 0px 16px 16px;
+}
