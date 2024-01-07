@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:wght@800&family=Work+Sans:ital,wght@0,300;1,200;1,400&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    font-family: "Merriweather", serif;
+    font-family: "Open Sans", sans-serif;
+    font-family: "Work Sans", sans-serif;
+}
+
+/* header section style */
+.container {
+    background-color: antiquewhite;
+    width: 1320px;
+    height: 600px;
+    margin: 50px auto;
+    background-image: url(../img/Banner\ Image.png);
+    border-radius: 16px;
+    /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) ); */
+}
+
+.banner {
+    text-align: center;
+    justify-content: center;
+    
+    
+}
+
+.banner .title h2 {
+    color: #FFF;
+    padding: 177px 530px 0px 530px;
+
+
+    font-size: 32px;
+
+    font-weight: 400px;
+
+}
+.main-title{
+    /* width: 632px;
+    text-align: center; */
+
+}
+.main-title h1{
+    color: #FFF;
+text-align: center;
+
+font-size: 72px;
+
+font-weight: 900;
+line-height: 95px; /* 131.944% */
+}
