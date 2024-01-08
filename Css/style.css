@@ -468,14 +468,15 @@ margin-right: 34px; */
 
 }
 
-.product-img img {
+/* .product-img img {
     transition: 1s;
 }
 
 .product-img img :hover {
     width: 450px;
     height: 500px;
-}
+    transform: rotate(3px);
+} */
 
 /* subscribe section style */
 .Subscribe-section {
