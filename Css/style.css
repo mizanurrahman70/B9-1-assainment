@@ -24,22 +24,20 @@
 .banner {
     text-align: center;
     justify-content: center;
+   
 
 
 }
 
 .banner .title h2 {
     color: #FFF;
-    padding: 177px 530px 0px 530px;
-
-
     font-size: 32px;
-
+    padding: 177px 530px 0px 530px;
     font-weight: 400px;
 
 }
 
-.main-title {
+.main-title{
     /* width: 632px;
     text-align: center; */
 
@@ -369,52 +367,46 @@ margin-right: 34px; */
     text-align: center;
     font-family: Inter;
     font-size: 20px;
-
+    padding-left: 135px;
     font-weight: 500;
     line-height: 32px;
-    text-align: center;
+    
 }
 
-.logic-contener {
-    display: flex;
-    margin-top: 64px;
-    justify-content: space-between;
-}
 
-#img-left {
-    width: 429px;
-    height: 433px;
-
-}
-
-.img-right {
-    background-image: url("../img/Rectangle\ 1.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-
-
-
-}
-
-.main-img {
-    width: 206.841px;
-    height: 206.841px;
-    margin-left: 202px;
-}
-
-#img-right {
-    width: 429px;
-    height: 433px;
-    position: relative;
-
-
-}
-
-.butto-red {
+.logic-section-containner{
     background-image: url("../img/Rectangle\ 2.png");
-    width: 1320px;
-    height: 229px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+    margin-top: 68px; 
     border-radius: 16px 0px 16px 16px;
+   
+    
+}
+.img-midle{
+    position: absolute;
+    
+    
+
+}
+    
+
+
+.logic-dev-2{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 5px;
+    
+    
+   
+}
+.img-right{
+   
+    position: relative;
+    margin-top: 86px;
+    margin-left: -159px;
+    margin-bottom: 58px;
 }
 
 /* proudct section style */
@@ -513,8 +505,8 @@ margin-right: 34px; */
     margin-bottom: 22px;
 }
 
-.title p {
-    width: 896px;
+.product-title {
+    /* width: 896px;
     color: rgba(7, 2, 17, 0.60);
     align-items: center;
     font-family: Inter;
@@ -523,6 +515,7 @@ margin-right: 34px; */
     font-weight: 400;
     line-height: 32px;
     justify-content: center;
+    padding-left:199px; */
 }
 
 
@@ -576,7 +569,7 @@ margin-right: 34px; */
 }
 
 .footer-title h1 {
-    ;
+    
 
     font-family: Inter;
     font-size: 24px;
