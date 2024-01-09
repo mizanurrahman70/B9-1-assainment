@@ -598,7 +598,9 @@ line-height: 40px;
 }
 .footer-title h3 >img{
     text-align: center;
-    margin-right: 8px;
+    position: relative;
+    margin-right: 4px;
+
     
 }
 .footer-title h2{
